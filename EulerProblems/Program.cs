@@ -10,9 +10,7 @@ namespace EulerProblems
     {
         static void Main(string[] args)
         {
-            MultSumBelow1000 calculator = new MultSumBelow1000();
-
-            Console.WriteLine(calculator.answer.ToString());
+            Console.WriteLine(MultSumBelow1000.Answer.ToString());
             Console.ReadLine();
         }
     }

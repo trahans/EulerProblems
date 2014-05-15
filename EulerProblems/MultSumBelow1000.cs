@@ -8,14 +8,15 @@ namespace EulerProblems
 {
     class MultSumBelow1000
     {
-        public int answer;
-
-        public MultSumBelow1000()
+        public static int Answer
         {
-            answer = SumOfMult3And5();
+            get
+            {
+                return SumOfMult3And5();
+            }
         }
         
-        int SumOfMult3And5()
+        static int SumOfMult3And5()
         {
             int sum = 0;
 
