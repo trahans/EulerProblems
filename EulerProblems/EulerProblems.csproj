@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FibonacciSum.cs" />
+    <Compile Include="LargestPrimeFactory.cs" />
     <Compile Include="MultSumBelow1000.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

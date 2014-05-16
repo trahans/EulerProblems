@@ -10,8 +10,12 @@ namespace EulerProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(MultSumBelow1000.Answer.ToString());
-            Console.ReadLine();
+            string line;
+            for (; ; )
+            {
+                line = Console.ReadLine();
+                Console.WriteLine(LargestPrimeFactory.FindLargestPrimeFactor(line).ToString());
+            }
         }
     }
 }
