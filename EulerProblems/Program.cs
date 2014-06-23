@@ -10,12 +10,8 @@ namespace EulerProblems
     {
         static void Main(string[] args)
         {
-            string line;
-            for (; ; )
-            {
-                line = Console.ReadLine();
-                Console.WriteLine(LargestPrimeFactory.FindLargestPrimeFactor(line).ToString());
-            }
+            Console.WriteLine(PalindromeProducts.FindLargestPalindrome().ToString());
+            Console.ReadLine();
         }
     }
 }
